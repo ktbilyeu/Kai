@@ -3,11 +3,11 @@ version: 0.0.5.0
 synopsis: A functional-first scripting language with static typing
 description: Kai combines static type inference, first-class functions, algebraic data types, and scripting tools in an interpreter implemented in Haskell.
 category: Language
-github: Bikatr7/Kai
-homepage: https://github.com/bikatr7/kai
+github: ktbilyeu/Kai
+homepage: https://github.com/ktbilyeu/kai
 license: AGPL-3.0-only
-author: Kaden Bilyeu (Bikatr7)
-maintainer: bikatr7@proton.me
+author: Kaden Bilyeu
+maintainer: kadenbilyeu@proton.me
 
 extra-source-files:
   - '*.md'
