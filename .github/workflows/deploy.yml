@@ -16,7 +16,8 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Match native CI: GHC 9.4.8 requires the gold linker absent on Ubuntu 26.04.
+    runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v7.0.1
       with:
